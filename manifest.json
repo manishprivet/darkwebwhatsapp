@@ -1,0 +1,24 @@
+{
+  "name": "Dark Whatsapp",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Enables dark mode for Web Whatsapp",
+  "homepage_url": "https://manishprivet.github.io",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "192": "icons/icon192.png"
+  },
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ]
+}
