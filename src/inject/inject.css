@@ -1,7 +1,14 @@
 /**
  * Place your custom CSS styles here.
  **/
+
+html[dir] body.web {
+	background-image: none;
+	background-color: var(--app-background);
+}
+
 body.web {
+	color: var(--primary);
 	--active-tab-marker: #00af9c;
 	--active-tab-marker-rgb: 0, 175, 156;
 	--app-background: #090e11;
