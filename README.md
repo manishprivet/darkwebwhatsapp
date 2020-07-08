@@ -9,7 +9,7 @@ A Chrome extension to activate Dark Mode on Whatsapp Web<br>
 
 # Steps to Activate Manually
 
-## Clone the repo
+## Clone the repo or download zip [here](https://github.com/manishprivet/darkwebwhatsapp/archive/master.zip)
 
 ```bash
 git clone https://github.com/manishprivet/darkwebwhatsapp.git
@@ -21,7 +21,7 @@ or type ```chrome://extensions/``` in the address bar
 
 ## Enable Developer Mode
 
-## Click on Load Unpacked
+## Click on Load Unpacked (Load Packed if you've downloaded the zip file)
 
 ## Select the repo folder
 
